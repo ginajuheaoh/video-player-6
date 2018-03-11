@@ -1,0 +1,36 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 10px auto;
+  padding: 10px 20px;
+}
+
+p {
+  line-height: 2em;
+  margin: 20px auto;
+}
+
+.videoWrapper {
+  margin: 0 auto;
+  display: block;
+}
+
+video {
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    max-width: 640px;
+}
+}
